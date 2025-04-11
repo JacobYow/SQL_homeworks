@@ -1,1 +1,24 @@
-
+1- Data refers to raw, unorganized facts and figures. A database is a structured collection of data, organized for efficient access and management. 
+A relational database is a type of database that organizes data into tables with defined relationships between them, using rows and columns. 
+A table is a structured grid of data, consisting of rows and columns, used to store and organize information within a relational database. 
+2- SQL Server offers several key features, including security enhancements like Always Encrypted and Dynamic Data Masking, 
+data integrity through data constraints, high availability with Always On availability groups, and intelligent query processing for performance 
+optimization. Additionally, it provides tools for data warehousing and analysis with features like Microsoft Analysis Services and Reporting Services.
+3- Windows Authentication mode and SQL Server Authentication 
+4- CREATE DATABASE SchoolDB
+USE SchoolDB
+GO
+5- CREATE TABLE Students (StudentID INT PRIMARY KEY, NAME VARCHAR (50), AGE INT)
+6- SQL Server is the software that handles the database and the tables. 
+SQL Server Management Studio is the interface between the user and the database.
+7- SQL (Structured Query Language) commands are broadly categorized into five types: DDL (Data Definition Language), 
+DML (Data Manipulation Language), DQL (Data Query Language), DCL (Data Control Language), and TCL (Transaction Control Language).
+8- SELECT * FROM STUDENTS
+INSERT INTO STUDENTS VALUES 
+(1, 'JACOB', 32),
+(2, 'ALI', 35),
+(3, 'ABAT', 36)
+9- Go to Database SchoolDB with right click of mouse go to Tasks then go to Back up...
+There is a new window opens: Click Ok
+In order to restore Database select it with the right click of mouse and go to Restore Database.
+There is a new window opens then select necessary Database and click Ok
