@@ -17,4 +17,21 @@ WHERE EmpID = 1
   --4 DELETE FROM Employees
 WHERE EmpID = 2
 
-  --5 
+  --5 TRUNCATE TABLE Employees
+DROP TABLE Employees
+
+--6 ALTER TABLE Employees
+ALTER COLUMN Name VARCHAR(100)
+
+--7 ALTER TABLE Employees
+ADD Department VARCHAR(50)
+
+--8 ALTER TABLE Employees
+ALTER COLUMN Salary FLOAT
+
+--9 CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(50)
+)
+
+--10 TRUNCATE TABLE Employees
